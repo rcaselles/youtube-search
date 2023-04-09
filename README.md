@@ -1,29 +1,28 @@
-# [youtube-search: Node.js](https://github.com/appit-online/youtube-search)
+# [youtube-search: Node.js](https://github.com/rcaselles/youtube-search)
 
-Search videos on youtube without API key
+Search videos on youtube without API key. This is an updated fork from [appit-online version](https://github.com/appit-online/youtube-search)
 
 **Table of contents:**
 
+- [Quickstart](#quickstart)
 
-* [Quickstart](#quickstart)
+  - [Installing the library](#installing-the-library)
+  - [Using the library](#using-the-library)
 
-  * [Installing the library](#installing-the-library)
-  * [Using the library](#using-the-library)
-* [License](#license)
+- [License](#license)
 
 ## Quickstart
 
 ### Installing the library
 
 ```bash
-npm install youtube-search-without-api-key --save
+npm install youtube-search-scrapper --save
 ```
-
 
 ### Using the library
 
 ```javascript
-import * as yt from 'youtube-search-without-api-key';
+import * as yt from 'youtube-search-scrapper';
 
 /**
  * Given a search query, searching on youtube
@@ -54,12 +53,12 @@ console.log(videos);
         title: 'How to Download Free Music On Your iPhone (OFFLINE) 2020',
         views: '51',
         description:
-         'This video will show you how to download free music and videos on your iphone easy and fast 2020&#xA0;...' } 
+         'This video will show you how to download free music and videos on your iphone easy and fast 2020&#xA0;...' }
 },...]
 ```
 
 ```javascript
-const yt = require('youtube-search-without-api-key');
+const yt = require('youtube-search-scrapper');
 
 /**
  * Given a search query, searching on youtube

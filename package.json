@@ -1,5 +1,5 @@
 {
-  "name": "youtube-search-without-api-key",
+  "name": "youtube-search-scrapper",
   "version": "1.1.0",
   "description": "Search videos on YouTube without API key",
   "main": "lib/index.js",
@@ -17,28 +17,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appit-online/youtube-search.git"
+    "url": "git+https://github.com/rcaselles/youtube-search.git"
   },
   "keywords": [
     "youtube",
     "youtube search",
     "angular youtube search",
-    "youtube api",
-    "youtube crawler"
+    "youtube scrapper"
   ],
-  "funding": {
-    "url": "https://paypal.me/dave7117",
-    "type": "paypal"
-  },
-  "author": "David Koller",
+  "contributors": [
+    "David Koller",
+    "Roberto Caselles"
+  ],
   "license": "ISC",
   "files": [
     "lib/**/*"
   ],
   "bugs": {
-    "url": "https://github.com/appit-online/youtube-search/issues"
+    "url": "https://github.com/rcaselles/youtube-search/issues"
   },
-  "homepage": "https://github.com/appit-online/youtube-search#readme",
+  "homepage": "https://github.com/rcaselles/youtube-search#readme",
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.12",
